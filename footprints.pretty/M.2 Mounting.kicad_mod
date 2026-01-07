@@ -1,0 +1,115 @@
+(footprint "M.2 Mounting"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c74a599-14e7-4b1a-bef2-9a373684752d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "M.2 Mounting"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f2201e2-2ba9-4e2c-9bb3-37cf28de210d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f05bcb6a-0f6b-452e-af6e-d4de6ddd27da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bf02e79-4926-489d-976e-5b407be0b0c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -28.25)
+		(end 6.75 -28.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9846ba0-cdb9-4457-9727-3819a038798f")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end -1 -28.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b6c0682-998a-48c7-8cd5-ef2037402a12")
+	)
+	(fp_line
+		(start 21 -28.25)
+		(end 13.25 -28.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "015f14b8-6d46-4a00-8333-b8a06f7d67a6")
+	)
+	(fp_line
+		(start 21 -28.25)
+		(end 21 -2.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bc59d50-0fab-47a1-9d6f-bb7403e78489")
+	)
+	(pad "1" thru_hole circle
+		(at 10 -28.25)
+		(size 4 4)
+		(drill 3.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "27fd79c1-ec5c-4e51-bf8a-e46974f3383b")
+	)
+	(pad "1" connect circle
+		(at 10 -28.25)
+		(size 6.2 6.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bb244bfc-1c31-409a-af5b-08bfe3af0f55")
+	)
+	(embedded_fonts no)
+)
