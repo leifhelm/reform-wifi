@@ -83,7 +83,7 @@
 		(uuid "adbab90a-6510-4d7b-8d59-edd711686aea")
 	)
 	(fp_line
-		(start -15 -25.2)
+		(start -15 -25)
 		(end -15 22.55)
 		(stroke
 			(width 0.05)
@@ -163,8 +163,8 @@
 		(uuid "1cab611e-3926-4a38-bcf7-5abc0cc59f43")
 	)
 	(fp_line
-		(start 15 -25.2)
-		(end -15 -25.2)
+		(start 15 -25)
+		(end -15 -25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -184,7 +184,7 @@
 	)
 	(fp_line
 		(start 15 22.55)
-		(end 15 -25.2)
+		(end 15 -25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -226,7 +226,7 @@
 		(uuid "b52bf32d-cfd8-4d1e-bb38-7e3d58c90036")
 	)
 	(fp_line
-		(start -15 -25.2)
+		(start -15 -25)
 		(end -15 22.55)
 		(stroke
 			(width 0.05)
@@ -306,8 +306,8 @@
 		(uuid "907650b1-85e8-41cb-9ec6-79c048776d58")
 	)
 	(fp_line
-		(start 15 -25.2)
-		(end -15 -25.2)
+		(start 15 -25)
+		(end -15 -25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -327,7 +327,7 @@
 	)
 	(fp_line
 		(start 15 22.55)
-		(end 15 -25.2)
+		(end 15 -25)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -387,8 +387,8 @@
 		(uuid "21567eae-7b85-4611-905a-fa649cfa9f98")
 	)
 	(pad "" connect rect
-		(at -12.1 -22.3)
-		(size 5.8 5.8)
+		(at -12.1 -22.2)
+		(size 5.8 5.6)
 		(layers "B.Cu" "B.Mask" "Dwgs.User")
 		(uuid "5b9364a3-d59a-4566-b3ec-39178f52b0f2")
 	)
@@ -418,8 +418,8 @@
 		(uuid "25a66525-0b17-47b4-b761-3b48e03be7f8")
 	)
 	(pad "" connect rect
-		(at 12.1 -22.3)
-		(size 5.8 5.8)
+		(at 12.1 -22.2)
+		(size 5.8 5.6)
 		(layers "B.Cu" "B.Mask" "Dwgs.User")
 		(uuid "2c1b1352-cc51-42ab-86a1-7dfb688d5aeb")
 	)
