@@ -7334,7 +7334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f22646-f2e3-4f26-93a5-0f9385b2d59d")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 201.5333 40.64 0)
 			(effects
 				(font
@@ -7424,7 +7424,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41447443"
+		(property "LCSC" "C5163551"
 			(at 199.39 91.44 0)
 			(effects
 				(font
@@ -7643,7 +7643,7 @@
 			)
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7656,10 +7656,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29d71fd2-d867-47d5-bf6d-fa719f404ab8")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 56.7533 162.56 0)
 			(effects
 				(font
@@ -7866,7 +7866,7 @@
 		(instances
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7882,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b161da4-b4c9-4216-b985-dae1c40e5590")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 107.95 35.5599 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8012,7 +8012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31fc07f1-369d-4c07-8408-1a9b434782df")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 254 64.7699 0)
 			(effects
 				(font
@@ -8126,7 +8126,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8143,7 +8143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "332fed41-7e70-4818-8fce-339db8776441")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -8193,7 +8193,7 @@
 		(instances
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8209,7 +8209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343ece35-9cbf-4334-a046-daa042cbcddf")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 264.16 96.5199 0)
 			(effects
 				(font
@@ -8323,7 +8323,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8340,7 +8340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38859114-9f58-44db-a415-121f2761894d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 157.48 163.83 0)
 			(effects
 				(font
@@ -8396,7 +8396,7 @@
 			)
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8542,7 +8542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce77873-5a06-4d2b-b398-fa4ea0925ff1")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 264.16 64.7699 0)
 			(effects
 				(font
@@ -8656,7 +8656,7 @@
 			)
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8672,7 +8672,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e38122c-7ad5-40ed-9e1c-206bee98c6eb")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 149.86 110.4899 0)
 			(effects
 				(font
@@ -8786,7 +8786,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8803,7 +8803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ba05e54-d893-4f70-b4cf-954374ed9e7a")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 99.06 153.6699 0)
 			(effects
 				(font
@@ -8917,7 +8917,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9062,7 +9062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f7bea3-955a-47e7-b4ca-c52ddcf56046")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR013"
 			(at 52.07 172.72 0)
 			(effects
 				(font
@@ -9112,7 +9112,7 @@
 		(instances
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR02")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a78d11e-f193-486b-ab70-5992644c9c6c")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR03"
 			(at 199.39 34.29 0)
 			(effects
 				(font
@@ -9183,7 +9183,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9198,7 +9198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d48e9b6-dae9-4bed-bf74-77c528201962")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -9254,7 +9254,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2916321"
+		(property "LCSC" "C2916320"
 			(at 157.48 154.94 0)
 			(effects
 				(font
@@ -9396,7 +9396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f70c5b7-219a-48d5-ab34-42269a730b6b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -9452,7 +9452,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9468,7 +9468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76ac154d-a10b-4d90-b657-66574c52918a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 101.6 153.67 0)
 			(effects
 				(font
@@ -9524,7 +9524,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77df89e9-e030-482f-bdeb-27de7d8122dc")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 279.4 96.5199 0)
 			(effects
 				(font
@@ -9654,7 +9654,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9669,7 +9669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c5229bd-87d2-4aae-acea-2bc1852ce144")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 199.39 149.86 0)
 			(effects
 				(font
@@ -9725,7 +9725,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9859,7 +9859,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "84e92e7d-26b3-409b-835e-8d6d0d07e1e0")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 240.03 62.2299 90)
 			(effects
 				(font
@@ -9961,7 +9961,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "TP3")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9977,7 +9977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87903118-70b6-450a-932f-7147787bc109")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 107.95 57.1499 0)
 			(effects
 				(font
@@ -10091,7 +10091,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10106,7 +10106,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8857cc48-7598-49f0-abf5-ae71a5e9c59f")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 261.62 63.5 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR013")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10177,7 +10177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90af6f59-c335-4495-bb7d-edda4cec7663")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 71.12 30.48 0)
 			(effects
 				(font
@@ -10233,7 +10233,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adfac857-9b12-463c-a7a9-158b44e0f917")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 123.19 57.1499 0)
 			(effects
 				(font
@@ -10363,7 +10363,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10379,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae53bddb-55dd-4d87-ba81-990decf5ac25")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 232.41 64.7699 90)
 			(effects
 				(font
@@ -10481,7 +10481,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10497,7 +10497,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b758e11b-f233-4f75-95a6-36af6720f14a")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 265.43 123.1899 90)
 			(effects
 				(font
@@ -10599,7 +10599,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10819,7 +10819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6ee2ba1-b139-41f0-9b38-1610ee625c0b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 261.62 93.98 0)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10892,7 +10892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e815a9e0-6a6b-421e-9fe3-a68412e07ce0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 101.6 195.58 0)
 			(effects
 				(font
@@ -10948,7 +10948,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10963,7 +10963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e89c00af-42da-468b-b4bc-b7ae489d1f64")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 71.12 99.06 0)
 			(effects
 				(font
@@ -11020,7 +11020,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11036,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f3ab0f26-7c6a-40e8-b9cf-5d6f9b9158d5")
-		(property "Reference" "TP2"
+		(property "Reference" "TP5"
 			(at 236.22 128.2699 90)
 			(effects
 				(font
@@ -11138,7 +11138,7 @@
 			)
 			(project ""
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "TP2")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -11154,7 +11154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4f08fcd-702f-4007-a8e1-5001cae7ab48")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 115.57 57.1499 0)
 			(effects
 				(font
@@ -11268,7 +11268,7 @@
 			)
 			(project "nref-wifi-m2"
 				(path "/a96e4190-6a37-435c-99bf-69421967be4e"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
