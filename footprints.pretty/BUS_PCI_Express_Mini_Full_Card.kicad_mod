@@ -52,6 +52,28 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -12.9 23.1)
+		(end 12.9 25.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "f39201d0-2c51-48a5-8fac-a16156deaa6b")
+	)
+	(fp_rect
+		(start -12.9 23.1)
+		(end 12.9 25.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "1433b97d-6a57-4545-9118-db3fbce78532")
+	)
 	(fp_line
 		(start -15 20.65)
 		(end 15 20.65)

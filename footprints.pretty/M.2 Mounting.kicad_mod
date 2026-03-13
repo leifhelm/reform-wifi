@@ -56,6 +56,50 @@
 		)
 	)
 	(attr smd)
+	(fp_arc
+		(start 7.600001 -28.95)
+		(mid 8.232234 -30.017767)
+		(end 9.300001 -30.65)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "9f8af9d9-aaab-4a18-be95-77bd7c7fcab0")
+	)
+	(fp_arc
+		(start 9.300001 -25.85)
+		(mid 8.232234 -26.482233)
+		(end 7.600001 -27.55)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "bec17add-d49c-4027-bda3-c25f9a5efa82")
+	)
+	(fp_arc
+		(start 10.7 -30.65)
+		(mid 11.767767 -30.017767)
+		(end 12.4 -28.95)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "e76260ee-42ee-4ca3-886d-6a13151a020f")
+	)
+	(fp_arc
+		(start 12.4 -27.55)
+		(mid 11.767767 -26.482233)
+		(end 10.7 -25.85)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Paste")
+		(uuid "8c23c6bd-b44d-429c-86d0-413fedcf8a79")
+	)
 	(fp_line
 		(start -1 -28.25)
 		(end 6.75 -28.25)
@@ -98,18 +142,35 @@
 	)
 	(pad "1" thru_hole circle
 		(at 10 -28.25)
-		(size 4 4)
+		(size 6.2 6.2)
 		(drill 3.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(thermal_bridge_angle 90)
-		(uuid "27fd79c1-ec5c-4e51-bf8a-e46974f3383b")
-	)
-	(pad "1" connect circle
-		(at 10 -28.25)
-		(size 6.2 6.2)
-		(layers "F.Cu" "F.Mask")
-		(uuid "bb244bfc-1c31-409a-af5b-08bfe3af0f55")
+		(uuid "7b15c3d9-3c52-415a-bce1-f10786be160b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 4.1 4.1)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 4.1 4.1)
+				(zone_connect -1)
+			)
+		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/footprints.3dshapes/Sinhoo SMTSO2015CTJ.step"
+		(offset
+			(xyz 10 28.25 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )
